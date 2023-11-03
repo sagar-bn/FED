@@ -1,0 +1,15 @@
+.r {
+    background-color: red;
+    height: 200px;
+    width: 600px;
+}
+
+.y {
+    background-color: yellow;
+    height: 200px;
+    width: 600px;
+}
+
+p {
+    background-color: blue;
+}

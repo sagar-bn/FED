@@ -1,0 +1,29 @@
+h1 {
+    border: 10px solid #FF9130;
+    color: red;
+    background-color: #A9A9A9;
+}
+
+form {
+    border: 15px solid #FECDA6;
+    padding: 5%;
+    color: #2300bc;
+    width: 70%;
+    margin: auto auto;
+
+
+
+}
+
+button {
+    background-color: #FF5B22;
+    color: aliceblue;
+}
+
+div {
+    border: 5px solid #A9A9A9;
+    border-radius: 5%;
+    background-image: url(./OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
