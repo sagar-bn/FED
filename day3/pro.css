@@ -1,0 +1,35 @@
+/* #ma {
+    border: 2px solid gray;
+    border-radius: 2%;
+    width: 200px;
+    text-align: center;
+    height: 250px;
+} */
+
+
+/* .sag {
+    width: 190px;
+    border-radius: 50%;
+    height: 190px;
+} */
+
+/* .all {
+    background-color: aliceblue;
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+
+
+} */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}

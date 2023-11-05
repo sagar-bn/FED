@@ -1,0 +1,13 @@
+img {
+    resize: inherit;
+}
+
+body {
+    background-color: #00A9FF;
+    color: #FFF6F6;
+}
+
+div {
+    display: flex;
+    flex-wrap: inherit;
+}
