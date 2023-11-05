@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Validation</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            text-align: center;
+            display: block;
+            margin: 30px auto;
+            border-radius: 5%;
+            color: blue;
+
+
+
+        }
+
+        body {
+            background-image: url();
+        }
+
+        button {
+            border-bottom: 2px solid gold;
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Voter Validation</h2>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" min="0">
+        <button onclick="validateAge()">Check Eligibility</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function validateAge() {
+            var age = document.getElementById("age").value;
+            var result = document.getElementById("result");
+
+            if (age >= 18) {
+                result.innerText = "You are eligible to vote!";
+            } else {
+                result.innerText = "You are not yet eligible to vote.";
+            }
+        }
+    </script>
+</body>
+
+</html>
